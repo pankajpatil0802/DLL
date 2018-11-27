@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleCalculations", "SimpleCalculations\SimpleCalculations.vcproj", "{93E36F9D-45CF-4068-AABF-7B309AE1D90A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleCalculationsTests", "SimpleCalculationsTests\SimpleCalculationsTests.vcproj", "{73B84C5D-048B-4055-BCE3-0466C5960BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28DB5378-E967-49DD-BEA8-0362A6936B2F}"
+	ProjectSection(SolutionItems) = preProject
+		DLLTest.vsmdi = DLLTest.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DLLTest.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E36F9D-45CF-4068-AABF-7B309AE1D90A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93E36F9D-45CF-4068-AABF-7B309AE1D90A}.Debug|Win32.Build.0 = Debug|Win32
+		{93E36F9D-45CF-4068-AABF-7B309AE1D90A}.Release|Win32.ActiveCfg = Release|Win32
+		{93E36F9D-45CF-4068-AABF-7B309AE1D90A}.Release|Win32.Build.0 = Release|Win32
+		{73B84C5D-048B-4055-BCE3-0466C5960BF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73B84C5D-048B-4055-BCE3-0466C5960BF3}.Debug|Win32.Build.0 = Debug|Win32
+		{73B84C5D-048B-4055-BCE3-0466C5960BF3}.Release|Win32.ActiveCfg = Release|Win32
+		{73B84C5D-048B-4055-BCE3-0466C5960BF3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
